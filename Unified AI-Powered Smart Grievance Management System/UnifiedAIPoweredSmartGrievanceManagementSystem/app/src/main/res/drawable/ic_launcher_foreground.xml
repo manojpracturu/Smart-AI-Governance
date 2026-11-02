@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Shield Background / Body -->
+    <path
+        android:fillColor="#102A43"
+        android:strokeColor="#FF9933"
+        android:strokeWidth="3.5"
+        android:pathData="M54,18 C66,18 78,23 83,31 C83,55 70,75 54,88 C38,75 25,55 25,31 C30,23 42,18 54,18 Z" />
+
+    <!-- Inner Shield Accent Line -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFB347"
+        android:strokeWidth="1.2"
+        android:pathData="M54,23 C64,23 74,27 78,34 C78,52 66,69 54,81 C42,69 30,52 30,34 C34,27 44,23 54,23 Z" />
+
+    <!-- Checkmark representing verified / resolved grievance -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M40,51 L49,60 L70,39" />
+
+    <!-- AI Intelligence Badge / Star / Spark at top right of shield -->
+    <!-- Badge Background Circle -->
+    <path
+        android:fillColor="#FF9933"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M78,28 m-10,0 a10,10 0 1,1 20,0 a10,10 0 1,1 -20,0" />
+
+    <!-- AI Spark / Star Icon inside Badge -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M78,21 L79.5,25.5 L84,27 L79.5,28.5 L78,33 L76.5,28.5 L72,27 L76.5,25.5 Z" />
+
+    <!-- Bottom decorative tech nodes representing e-governance data connection -->
+    <path
+        android:fillColor="#FFB347"
+        android:pathData="M44,70 a3,3 0 1,1 6,0 a3,3 0 1,1 -6,0" />
+    <path
+        android:fillColor="#FFB347"
+        android:pathData="M54,73 a3,3 0 1,1 6,0 a3,3 0 1,1 -6,0" />
+    <path
+        android:fillColor="#FFB347"
+        android:pathData="M64,70 a3,3 0 1,1 6,0 a3,3 0 1,1 -6,0" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF9933"
+        android:strokeWidth="1"
+        android:strokeLineCap="round"
+        android:pathData="M47,70 L54,73 L61,70" />
+</vector>
